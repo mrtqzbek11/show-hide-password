@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Albert+Sans:wght@100;200;300;400;500;600;700;800;900&family=DM+Sans&family=Dancing+Script:wght@400;500;600;700&family=Edu+VIC+WA+NT+Beginner&family=Fira+Code:wght@300;400;500;600;700&family=Poppins&family=Quicksand:wght@300;400&family=Raleway:wght@100;200&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@300&family=Work+Sans:wght@300;500;600&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+body, .password-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  background-color: #292929;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.password-box {
+  position: relative;
+}
+
+.password-input {
+  width: 350px;
+  height: 50px;
+  border: none;
+  padding: 0 5px;
+  border-bottom: 1px solid #e23556;
+  color: white;
+}
+
+.password-input::-webkit-input-placeholder {
+  color: #c6c6c6;
+  font-size: 1.1rem;
+}
+
+.password-input:-ms-input-placeholder {
+  color: #c6c6c6;
+  font-size: 1.1rem;
+}
+
+.password-input::-ms-input-placeholder {
+  color: #c6c6c6;
+  font-size: 1.1rem;
+}
+
+.password-input::placeholder {
+  color: #c6c6c6;
+  font-size: 1.1rem;
+}
+
+.show-hide {
+  color: #e23556;
+  position: absolute;
+  right: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: none;
+}
+/*# sourceMappingURL=App.css.map */
